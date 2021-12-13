@@ -1,0 +1,49 @@
+
+ .jumbotron img{
+    width: 100%;
+}
+@media (min-width: 992px) { 
+    .jumbotron img{
+        height: 700px;
+     }
+ }
+
+ 
+ 
+
+
+ section{
+     padding-top: 5rem;
+ }
+
+ *::selection{
+color: white;
+background-color: black;
+
+ }
+
+ .card:hover{
+     box-shadow: 0px 0px 10px white;
+     transform: scale(1.01);
+     color: red;
+ }
+
+ .nav-link:hover {
+    border-bottom: 3px solid white;
+    
+  }
+
+  .accordion-item:hover, .dropdown-item:hover {
+    border-bottom: 3px solid black;
+    
+  }
+
+  .nav-link:hover{
+      color: white;
+      font-weight: bold;
+  }
+
+  .hl:hover{
+color: red;
+font-weight: bold;
+  }
